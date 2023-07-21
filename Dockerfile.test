@@ -1,0 +1,11 @@
+# Use the official Python image as the base image
+FROM python:3.9
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the project files to the working directory
+COPY . .
+
+# Set the command to run the tests
+CMD ["python", "-m", "unittest", "test_process_tweets.py", "test_word_cloud.py"]

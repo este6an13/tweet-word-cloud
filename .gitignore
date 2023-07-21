@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore Docker-related files
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.swp
+*.bak
+*.tmp
+*.pid
+.docker/
+.dockerignore
+
+# Ignore any generated files
+word_cloud.html
+hashtag_cloud.html
+user_cloud.html
+words.txt
